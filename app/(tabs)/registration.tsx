@@ -75,7 +75,7 @@ export default function RegistrationScreen() {
       `Total Bayar: ${formatCurrency(totalPayment)}\n\n` +
       `Bukti pembayaran akan dikirim setelah pesan ini.`;
 
-    const phoneNumber = '6288207910'; // Format: country code + number without leading 0
+    const phoneNumber = '083160207988'; // Format: country code + number without leading 0
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
