@@ -181,11 +181,11 @@ export default function ExploreScreen() {
 
         <TouchableOpacity
           style={styles.contactCard}
-          onPress={() => openLink('https://wa.me/6288207910')}
+          onPress={() => openLink('https://wa.me/6283160207988')}
         >
           <Text style={styles.contactEmoji}>💬</Text>
           <Text style={styles.contactTitle}>WhatsApp</Text>
-          <Text style={styles.contactNumber}>0882 •••• 7910</Text>
+          <Text style={styles.contactNumber}>0831 6020 7988</Text>
           <View style={styles.contactButton}>
             <Text style={styles.contactButtonText}>Chat Sekarang</Text>
           </View>
